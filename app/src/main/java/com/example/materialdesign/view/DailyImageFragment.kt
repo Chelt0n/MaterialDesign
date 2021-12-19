@@ -86,7 +86,7 @@ class DailyImageFragment : Fragment() {
         bottomSheetBehavior = BottomSheetBehavior.from(bottomSheet)
         bottomSheetBehavior.state = BottomSheetBehavior.STATE_HIDDEN
         btnDescription.setOnClickListener{
-            bottomSheetBehavior.state = BottomSheetBehavior.STATE_COLLAPSED
+            bottomSheetBehavior.state = BottomSheetBehavior.STATE_EXPANDED
         }
     }
 
